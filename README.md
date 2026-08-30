@@ -66,7 +66,7 @@ python -m src.prepare_experiment "data/raw/merchant.xlsx" --ask-password
 확인해야 합니다.
 
 노트북은 25개 1차 평가 질의, Top 5 기준선 결과 저장, 0·1·2 관련도 검토 템플릿,
-Hit@5·Precision@5·MRR@10·nDCG@5 계산 및 시장명 Qdrant 필터 비교를 포함합니다.
+Hit@5·Precision@5·MRR@5·nDCG@5 계산 및 시장명 Qdrant 필터 비교를 포함합니다.
 평가 결과는 웹 서비스에서 직접 검색하는 데이터가 아니라 모델·데이터·검색 규칙 변경
 전후의 품질을 비교하는 회귀 테스트 자료입니다.
 
